@@ -1,0 +1,45 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV 0 DOWN
+MOV ACC DOWN
+MOV 30 ACC
+A: MOV 3 DOWN
+MOV 3 DOWN
+MOV 3 DOWN
+MOV 3 DOWN
+MOV 3 DOWN
+MOV 3 DOWN
+SUB 6
+JGZ A
+MOV -1 DOWN
+SWP
+ADD 1
+SAV
+
+@10
