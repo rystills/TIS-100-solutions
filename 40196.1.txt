@@ -1,5 +1,22 @@
 @0
-ADD RIGHT
+
+
+@1
+MOV UP ACC
+JEZ A
+MOV -9 DOWN
+JRO -3
+A:
+MOV 1 DOWN
+
+@2
+
+
+@3
+
+
+@4
+ADD UP
 JLZ A
 SAV
 SUB 3
@@ -14,23 +31,6 @@ C:
 MOV 1 DOWN
 MOV 2 ACC
 
-@1
-MOV UP ACC
-JEZ A
-MOV -9 LEFT
-JRO -3
-A:
-MOV 1 LEFT
-
-@2
-
-
-@3
-MOV UP DOWN
-
-@4
-
-
 @5
 
 
@@ -38,10 +38,10 @@ MOV UP DOWN
 
 
 @7
-MOV UP RIGHT
+
 
 @8
-MOV LEFT RIGHT
+MOV UP RIGHT
 
 @9
 MOV LEFT DOWN
